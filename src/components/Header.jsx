@@ -42,7 +42,7 @@ const Header = ({ showSearch, searchValue, setSearchValue, onSearch }) => {
             placeholder="Search"
             className="search-input"
           />
-          <button type="button" className="search-submit" data-testid="searchButton" onClick={onSearch}>
+          <button type="button" className="search-submit" data-testid="searchSubmitButton" onClick={onSearch}>
             <HiOutlineSearch />
           </button>
         </div>

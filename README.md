@@ -17,7 +17,7 @@ In the project directory, you can run:
 
 ## Login Credentials
 
-Use valid credentials such as:
+Use valid demo credentials such as:
 
 - `username`: rahul
 - `password`: rahul@2021

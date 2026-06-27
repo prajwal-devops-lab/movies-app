@@ -40,7 +40,6 @@ const Login = () => {
       if (response.ok) {
         document.cookie = `jwt_token=${data.jwt_token}; path=/`;
         localStorage.setItem('username', username);
-        localStorage.setItem('password', password);
         navigate('/', { replace: true });
       } else {
         setErrorMsg(data.error_msg || `Login failed (${response.status})`);
