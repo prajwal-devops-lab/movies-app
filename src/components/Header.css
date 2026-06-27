@@ -1,0 +1,96 @@
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 24px;
+  background-color: #181818;
+  border-bottom: 1px solid #333;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.website-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.app-name {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-link {
+  background: transparent;
+  color: #f4f4f4;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  background: #d81f26;
+  color: #fff;
+}
+
+.search-button,
+.profile-button,
+.search-submit {
+  background: transparent;
+  color: #f4f4f4;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.search-input-wrapper {
+  display: flex;
+  flex: 1 1 100%;
+  max-width: 560px;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #111;
+  color: #fff;
+}
+
+.profile-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+@media (max-width: 720px) {
+  .header-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .search-input-wrapper {
+    margin-top: 8px;
+  }
+}

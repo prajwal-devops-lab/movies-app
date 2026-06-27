@@ -1,0 +1,29 @@
+.account-route-container {
+  background: #050505;
+  min-height: 100vh;
+}
+
+.account-content {
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.account-details {
+  background: #111;
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.account-details p {
+  margin: 16px 0;
+  color: #e6e6e6;
+}
+
+.logout-button {
+  margin-top: 16px;
+  padding: 12px 18px;
+  background: #d81f26;
+  color: white;
+  border-radius: 12px;
+}

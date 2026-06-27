@@ -1,0 +1,47 @@
+.popular-route-container {
+  background: #050505;
+  min-height: 100vh;
+}
+
+.popular-content {
+  padding: 24px;
+}
+
+.movies-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.movie-item {
+  cursor: pointer;
+}
+
+.movie-poster {
+  border-radius: 14px;
+  width: 100%;
+}
+
+.movie-item p {
+  margin: 10px 0 0;
+  color: #f4f4f4;
+}
+
+.failure-view {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.failure-image {
+  max-width: 300px;
+  margin: 0 auto 24px;
+}
+
+.try-again-button {
+  padding: 10px 18px;
+  background: #d81f26;
+  color: #fff;
+  border-radius: 10px;
+}

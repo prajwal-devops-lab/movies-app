@@ -1,0 +1,83 @@
+.movie-details-route-container {
+  background: #050505;
+  min-height: 100vh;
+}
+
+.movie-details-content {
+  padding: 24px;
+}
+
+.movie-details-card {
+  display: grid;
+  gap: 24px;
+}
+
+.details-backdrop {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.details-text h2 {
+  margin-top: 0;
+}
+
+.details-text p {
+  color: #d1d1d1;
+  line-height: 1.6;
+}
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.genre-item {
+  padding: 8px 12px;
+  background: #111;
+  border-radius: 999px;
+}
+
+.similar-movies-section {
+  margin-top: 24px;
+}
+
+.movies-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.movie-item {
+  cursor: pointer;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.movie-item p {
+  margin: 10px 0 0;
+  color: #f4f4f4;
+}
+
+.failure-view {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.failure-image {
+  max-width: 300px;
+  margin: 0 auto 24px;
+}
+
+.try-again-button {
+  padding: 10px 18px;
+  background: #d81f26;
+  color: #fff;
+  border-radius: 10px;
+}
